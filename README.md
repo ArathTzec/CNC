@@ -33,7 +33,9 @@
   - 🤏 Ajuste y lubricacion de ejes, rodamientos, guias, etc
   - 🔩 Configuracion, calibracion e instalacion del firmware/software
   - ✔ Prueba de funcionamiento 
-#### Resultados y recomendaciones 
+#### Resultados y conclusiones 
+- Resultados
+  - Conclusiones y recomendaciones   
 
 <h4 align="center"> DESCRIPCIÓN DEL PROYECTO </h4> 
 
@@ -73,7 +75,7 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
  |Def. partes mecánicas  |    |    | X  | X  |    |    |    |    |    |     |     |     |     |     |
  |Inv. software de motores|   |    |    | X  | X  |    |    |    |    |     |     |     |     |     |
  |Diseño en SolidWorks   |    |    |    |    | X  | X  | X  |    |    |     |     |     |     |     |
- |Compra de materiales   |    |    |    |    |    | X  | X  |    |    |     |     |     |     |     |
+ |Compra de materiales   |    |    |    |    | X  | X  |    |    |    |     |     |     |     |     |
  |Cortar perfiles de aluminio| |   |    |    |    |    | X  |    |    |     |     |     |     |     |
  |Impresión de piezas 3D      |    |    |    |    |    | X  |    |    |     |     |     |     |     |
  |Verificar y corregir tolerancias| | | |    |    |    |    | X  |    |     |     |     |     |     |
@@ -102,3 +104,38 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
   | Roque Morales Alejandro   | Sistema de enfriamiento de hielera    |
   | Tzec Vargas Arath         | Compuerta automática para perros      |
    
+###### ✍ Boceto
+
+###### 💰 Presupuesto estimado del proyecto
+
+###### 🔨 Definición de poartes mecánicas
+   
+###### 💻 Investigación de software de calibración de motores
+<p>GRBL es un firmware para el control de máquinas CNC, está pensado para usarse en placas Arduino con un microcontrolador Atmega328, ya que nos permite configurar el control y desplazamiento de nuestra máquina. Los controladores paso a paso se clasifican para una longitud de impulso mínima de paso.<p>
+  
+###### 🖊 Diseño en SolidWorks
+<p>Para realizar el proyecto de manera física, primero se requiere un diseño que ayudará para evitar problemas y proporcionar parámetros para optimizar aspectos cruciales del proyecto. A continuación, se muestra el diseño en el programa SolidWorks:<p>
+  
+###### 💲 Compra de materiales
+<p>Se realizó la compra de los materiales listados anteriormente por medio de tiendas en línea como lo fueron Amazon y Mercado Libre, en la siguiente figura se muestra el material comprado.<p>
+  
+###### ✂ Cortar perfiles de aluminio
+<p>Se cortaron los perfiles de aluminio en medidas de:
+  - 2 perfiles de 40 cm
+  - 2 perfiles de 25.5 cm
+  - 2 perfiles de 24 cm<p>
+    
+###### 🖨 Impresión de piezas 3D
+  
+###### 👁 Verificar y corregir tolerancias de las piezas impresas
+  
+###### 🤏 Ajuste y lubricación de ejes, rodamientos, guias, etc.
+  
+###### 🔩 Configuracion, calibracion e instalacion del firmware/software
+  
+###### ✔ Prueba de funcionamiento 
+  
+##### Entrega de proyecto
+  
+<h4 align="center"> RESULTRADOS Y CONCLUSIONES </h4> 
+
