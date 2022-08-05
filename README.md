@@ -59,4 +59,46 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
 ##### Alcances
 <p>Con este proyecto se pretende diseñar, construir y programar un prototipo de máquina fresadora y perforadora para la elaboración automática de placas de circuito impreso, utilizando para ello el control numérico por computador (CNC). La máquina es capaz de fresar placas de una dimensión máxima de 15x25cm, para ello se utilizan motores paso a paso con una resolución de 200 pasos por vuelta en configuración de paso completo. EI intercambio de herramientas en la máquina se realiza de forma manual, ya que por el reducido número de herramientas necesarias para el fresado y perforado de las PCB, no se hace necesario implementar un intercambiador automático.<p>
   
+<h4 align="center"> DESARROLLO </h4> 
+
+##### Planeación
+<p>En la siguiente tabla se presenta el Diagrama de Gantt de las actividades a realizar en el proyecto.<p>
+ 
+ |       Actividad       | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | S11 | S12 | S13 | S14 |
+ |-----------------------|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|
+ |Definición de proyecto | X  |    |    |    |    |    |    |    |    |     |     |     |     |     |
+ |Elección de proyecto   |    | X  |    |    |    |    |    |    |    |     |     |     |     |     |
+ |Boceto del proyecto    |    |    | X  |    |    |    |    |    |    |     |     |     |     |     |
+ |Presupuesto            |    |    | X  |    |    |    |    |    |    |     |     |     |     |     |
+ |Def. partes mecánicas  |    |    | X  | X  |    |    |    |    |    |     |     |     |     |     |
+ |Inv. software de motores|   |    |    | X  | X  |    |    |    |    |     |     |     |     |     |
+ |Diseño en SolidWorks   |    |    |    |    | X  | X  | X  |    |    |     |     |     |     |     |
+ |Compra de materiales   |    |    |    |    |    | X  | X  |    |    |     |     |     |     |     |
+ |Cortar perfiles de aluminio| |   |    |    |    |    | X  |    |    |     |     |     |     |     |
+ |Impresión de piezas 3D      |    |    |    |    |    | X  |    |    |     |     |     |     |     |
+ |Verificar y corregir tolerancias| | | |    |    |    |    | X  |    |     |     |     |     |     |
+ |Ensamble de la CNC     |    |    |    |    |    |    |    |    | X  |     |     |     |     |     |
+ |Ajuste y lubricación   |    |    |    |    |    |    |    |    |    |  X  |     |     |     |     |
+ |Configuración e instalación de firmware/software|||||||   |    |    |     |  X  |     |     |     |
+ |Primer prueba de funcionamiento| | |  |    |    |    |    |    |    |     |     |  X  |     |     |
+ |Corrección de errores  |    |    |    |    |    |    |    |    |    |     |     |  X  |  X  |     |
+ |Segunda prueba         |    |    |    |    |    |    |    |    |    |     |     |     |  X  |     |
+ |Entrega                |    |    |    |    |    |    |    |    |    |     |     |     |     |  X  |
   
+##### Desarrollo del proyecto
+<p>En esta sección se describe paso a paso todo el procedimiento que se llevó a cabo para el diseño de una CNC con el objetivo de mejorar la manufactura de PCBs y reducir los riesgos de falla.<p>
+
+###### Definición de proyecto
+<p>Para comenzar en la realización de este proyecto se pensó en una máquina que diera solución alguna problemática y se eligieron a los integrantes adecuados para formar un equipo de alto rendimiento.<p>
+
+###### Elección de proyecto
+ <p>Ya que hemos definido hacia dónde va el proyecto, se dieron varias propuestas que se muestran a continuación:<p>
+   
+  |         Integrante        |                Prouesta               |
+  |---------------------------|---------------------------------------|
+  | Arzate Valle Jose Martín  | *Maquina CNC*                         |
+  | Flores Figueroa Alejandro | Sistema de llenado y sellado de bolis |
+  | Reyes Araujo Aldo         | Protección para soldadura de mano     |
+  | Roque Morales Alejandro   | Sistema de enfriamiento de hielera    |
+  | Tzec Vargas Arath         | Compuerta automática para perros      |
+   
