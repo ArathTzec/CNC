@@ -77,7 +77,7 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
  |Diseño en SolidWorks   |    |    |    |    | X  | X  | X  |    |    |     |     |     |     |     |
  |Compra de materiales   |    |    |    |    | X  | X  |    |    |    |     |     |     |     |     |
  |Cortar perfiles de aluminio| |   |    |    |    |    | X  |    |    |     |     |     |     |     |
- |Impresión de piezas 3D      |    |    |    |    |    | X  |    |    |     |     |     |     |     |
+ |Impresión de piezas 3D      |    |    |    |    |    |    | X  |    |     |     |     |     |     |
  |Verificar y corregir tolerancias| | | |    |    |    |    | X  |    |     |     |     |     |     |
  |Ensamble de la CNC     |    |    |    |    |    |    |    |    | X  |     |     |     |     |     |
  |Ajuste y lubricación   |    |    |    |    |    |    |    |    |    |  X  |     |     |     |     |
