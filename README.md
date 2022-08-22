@@ -72,7 +72,6 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
  |Elección de proyecto   |    | X  |    |    |    |    |    |    |    |     |     |     |     |     |
  |Boceto del proyecto    |    |    | X  |    |    |    |    |    |    |     |     |     |     |     |
  |Presupuesto            |    |    | X  |    |    |    |    |    |    |     |     |     |     |     |
- |Def. partes mecánicas  |    |    | X  | X  |    |    |    |    |    |     |     |     |     |     |
  |Inv. software de motores|   |    |    | X  | X  |    |    |    |    |     |     |     |     |     |
  |Diseño en SolidWorks   |    |    |    |    | X  | X  | X  |    |    |     |     |     |     |     |
  |Compra de materiales   |    |    |    |    | X  | X  |    |    |    |     |     |     |     |     |
@@ -82,9 +81,6 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
  |Ensamble de la CNC     |    |    |    |    |    |    |    |    | X  |     |     |     |     |     |
  |Ajuste y lubricación   |    |    |    |    |    |    |    |    |    |  X  |     |     |     |     |
  |Configuración e instalación de firmware/software|||||||   |    |    |     |  X  |     |     |     |
- |Primer prueba de funcionamiento| | |  |    |    |    |    |    |    |     |     |  X  |     |     |
- |Corrección de errores  |    |    |    |    |    |    |    |    |    |     |     |  X  |  X  |     |
- |Segunda prueba         |    |    |    |    |    |    |    |    |    |     |     |     |  X  |     |
  |Entrega                |    |    |    |    |    |    |    |    |    |     |     |     |     |  X  |
   
 ##### Desarrollo del proyecto
@@ -105,10 +101,12 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
   | Tzec Vargas Arath         | Compuerta automática para perros      |
    
 ###### ✍ Boceto
+Esta imagen representa el boceto realizado en el software de SolidWorks, de aquí partimos para poder realizarlo en físico
+
+<img src="https://raw.githubusercontent.com/ArathTzec/CNC/main/Imagenes/CNC.png" width="250">
 
 ###### 💰 Presupuesto estimado del proyecto
-
-###### 🔨 Definición de poartes mecánicas
+Aqui podras encontrar el presupuesto y material del proyecto ===> [Presupuesto](https://github.com/ArathTzec/CNC/tree/main/Materiales)
    
 ###### 💻 Investigación de software de calibración de motores
 <p>GRBL es un firmware para el control de máquinas CNC, está pensado para usarse en placas Arduino con un microcontrolador Atmega328, ya que nos permite configurar el control y desplazamiento de nuestra máquina. Los controladores paso a paso se clasifican para una longitud de impulso mínima de paso.<p>
@@ -126,16 +124,32 @@ Realizar la programación de la máquina-herramienta CNC, para fresar y perforar
   - 2 perfiles de 24 cm<p>
     
 ###### 🖨 Impresión de piezas 3D
+
+Las piezas se imprimieron mediante impresora 3D, para más información dirígete al siguiente enlace ===> [Piezas en 3D](https://github.com/ArathTzec/CNC/tree/main/Archivos%20CAD/M%C3%A1quina%20CNC)
   
 ###### 👁 Verificar y corregir tolerancias de las piezas impresas
-  
+
+Todas las piezas que se imprimen en 3D llegan a tener alguna tolerancia o “error” de impresión, para corregir este error puedes lijar la pieza impresa hasta que los elementos como rodamientos, guías, husillos y tornillos logren entrar correctamente 
+
 ###### 🤏 Ajuste y lubricación de ejes, rodamientos, guias, etc.
+
+Para lubricar los componentes se utilizó grasa blanca con litio y aceite. Las siguientes imagenes muestran la colocacion de estos: 
+
+ <img src="https://raw.githubusercontent.com/ArathTzec/CNC/main/Imagenes/Lubricacion%20de%20guias.jpeg" width="250">  <img src="https://raw.githubusercontent.com/ArathTzec/CNC/main/Imagenes/Lubricacion%20de%20rodamientos.jpeg" width="250"> 
+  
   
 ###### 🔩 Configuracion, calibracion e instalacion del firmware/software
-  
+ 
+Puedes consultar como se calibro dando click aqui ==> [Calibracion](https://github.com/ArathTzec/CNC/blob/main/Manuales/Configuracion%20de%20los%20drivers%20para%20el%20motor%20paso%20a%20paso%20.pdf)
+ 
 ###### ✔ Prueba de funcionamiento 
-  
+En la primera prueba se volvieron a ajustar los motores, debido a que no estaban bien calibrados. También se agrego mas grasa blanca con litio para que los husillos funcionaran de una mejor manera, ya con esta grasa los ejes se pudieron mover correctamente. De la misma manera al hacer estos cambios la maquina funciono mejor 
+ 
+<img src="https://github.com/ArathTzec/CNC/blob/main/Imagenes/Primera%20prueba_1.jpeg" width="300">
+ 
 ##### Entrega de proyecto
-  
+ 
 <h4 align="center"> RESULTRADOS Y CONCLUSIONES </h4> 
+
+Como resultados del proyecto se entrego una maquina CNC que logra mejorar la manofactura de las placas PCB: 
 
